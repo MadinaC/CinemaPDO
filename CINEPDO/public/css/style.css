@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+
+
+.wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+}
+
+#cinema {
+    color:#603535;
+    font-family: "Poppins-Bold";
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    margin: 0
+}
+
+li
+{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link_menu
+{
+    text-decoration: none;
+    color: rgb(54, 8, 8);
+    font-size: 20px;
+}
+.container {
+    text-align:center;
+}
+
+#content_actors{
+    background-color:#437979;
+}
+
+#content_films {
+    background-color:#437979 ;
+}
+#list_genres{
+    background-color: #437979;
+}
+#detail_film{
+    background-color: #437979;
+}
+
+#list_realisateurs{
+    background-color: #437979;
+}
+
+.affiche {
+    width: 200px;
+}
+
+#card_actors{
+    background-color: #609989;
+}
+
+.button{
+    margin-top:20px;
+}
+
+.label {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+  
+}
